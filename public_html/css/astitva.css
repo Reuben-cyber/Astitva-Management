@@ -1,0 +1,212 @@
+body {
+	background-color:#000000;
+}
+/* slideshow home page start*/
+.slideshow-container
+             {
+              position: absolute;
+              opacity:1; 
+              width:75vw; 
+              height: 30vw; 
+              top: 15vw;
+              margin-left: 12vw;
+              z-index: 1;
+             }
+.mySlides
+             {
+              position: absolute;
+              width:75vw; 
+              height:30vw;
+              top: 0vw;
+              z-index: 1;
+             }
+.mySlides img
+             {
+              position: absolute;
+              width:75vw; 
+              height: 30vw;
+              top: 0vw;
+              z-index: 1;
+             }
+/* slideshow home page end*/
+a {
+  text-decoration: none;
+}
+
+nav {
+  font-family: monospace;
+  background: black;
+  height:3.2vw;
+  width:100vw;
+  position: absolute;
+  margin-top: -1.5vw;
+  margin-left:-1vw;
+}
+
+ul {
+background: black;
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+}
+
+li {
+  color: #ffffff;
+  font-weight: bold;
+  background: black;
+  display: block;
+  float: left;
+  padding: 1vw;
+  font-size:1vw;
+  position: relative;
+  text-decoration: none;
+  transition-duration: 0.5s;
+}
+  
+li a {
+  color: #ffffff;
+  font-weight: bold;
+}
+
+li:hover {
+  background: red;
+  cursor: pointer;
+}
+
+ul li ul {
+  background:black;
+  visibility: hidden;
+  opacity: 0;
+  min-width: 5rem;
+  position: absolute;
+  transition: all 0.5s ease;
+  margin-top: 1rem;
+  left: 0;
+  display: none;
+}
+
+ul li:hover > ul,
+ul li:focus-within > ul,
+ul li ul:hover {
+  visibility: visible;
+  opacity: 1;
+  display: block;
+}
+
+ul li ul li {
+  clear: both;
+  width: 100%;
+}
+ .loginbox { 
+            width:35vw; 
+            height:20vw; 
+            background:orange; 
+            position: absolute; 
+            margin-top:12vw; 
+            margin-left:32vw; 
+            border-radius: 2vw; 
+        } 
+        .loginbox input[type=text]
+        {
+         margin-left: 7.5vw;
+         margin-top: -1vw;
+         height:2vw;
+         width:20vw;
+         border-radius: 3vw;
+        }
+        .loginbox input[type=password]
+        {
+         margin-left: 7.5vw;
+         margin-top: 1vw;
+         height:2vw;
+         width:20vw;
+         border-radius: 3vw;
+        }
+        .loginbox input[type=submit]
+        {
+         margin-left: 12.5vw;
+         margin-top: 1vw;
+         height:2vw;
+         width:10vw;
+         border-radius: 3vw;
+         font-size: 1vw;
+        }
+        
+.signupbox { 
+            width:35vw; 
+            height:30vw; 
+            background:orange; 
+            position: absolute; 
+            margin-top:9vw; 
+            margin-left:32vw; 
+            border-radius: 2vw; 
+        } 
+        .signupbox input[type=text],select
+        {
+         margin-left: 7.5vw;
+         margin-top: 1vw;
+         height:2vw;
+         width:20vw;
+         border-radius: 3vw;
+       }
+        .signupbox input[type=submit]
+        {
+         margin-left: 12.5vw;
+         margin-top: 1vw;
+         height:2vw;
+         width:10vw;
+         border-radius: 3vw;
+         font-size: 1vw;
+        }
+.adduser { 
+            width:35vw; 
+            height:38vw; 
+            background:orange; 
+            position: absolute; 
+            margin-top:9vw; 
+            margin-left:32vw; 
+            border-radius: 2vw; 
+        } 
+        .adduser input[type=text],input[type=password],select
+        {
+         margin-left: 7.5vw;
+         margin-top: 1vw;
+         height:2vw;
+         width:20vw;
+         border-radius: 3vw;
+       }
+        .adduser input[type=submit]
+        {
+         margin-left: 12.5vw;
+         margin-top: 1vw;
+         height:2vw;
+         width:10vw;
+         border-radius: 3vw;
+         font-size: 1vw;
+        }
+.addsponsor { 
+            width:35vw; 
+            height:27vw; 
+            background:orange; 
+            position: absolute; 
+            margin-top:9vw; 
+            margin-left:32vw; 
+            border-radius: 2vw; 
+        } 
+        .addsponsor input[type=text]
+        {
+         margin-left: 7.5vw;
+         margin-top: 1vw;
+         height:2vw;
+         width:20vw;
+         border-radius: 3vw;
+       }
+        .addsponsor input[type=submit]
+        {
+         margin-left: 12.5vw;
+         margin-top: 1vw;
+         height:2vw;
+         width:10vw;
+         border-radius: 3vw;
+         font-size: 1vw;
+        }
